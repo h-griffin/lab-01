@@ -24,8 +24,24 @@
         background-color: rgb(112, 196, 232);
     }
 
+    section:nth-child(4) {
+        background-color: rgb(61, 84, 94);
+    }
+
     article{
         background-color: rgb(7, 55, 92);
+    }
+
+    article:nth-child(2){
+        background-color: rgb(49, 91, 121);
+    }
+
+    article:nth-child(3){
+        background-color: rgb(133, 182, 216);
+    }
+
+    article:nth-child(4){
+        background-color: rgb(38, 60, 159);
     }
 
     footer{

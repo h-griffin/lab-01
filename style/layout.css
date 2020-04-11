@@ -2,7 +2,6 @@
 
 /* mobile */
 @media only screen and (max-width: 768px){
-
     header{
         line-height: 60px;
     }
@@ -24,6 +23,7 @@
 
     footer{
         line-height: 70px;
+        /* display: inline-block; */
     }
 }
 
@@ -31,7 +31,7 @@
 /* float */
 @media only screen and (min-width: 769px){
     main{
-
+        margin: 0 auto;
     }
     header{
         line-height: 90px;
@@ -61,5 +61,7 @@
 
     footer{ 
         line-height: 150px;
+        margin: 0 auto;
+        display: inline-block;
     }
 }
