@@ -61,7 +61,7 @@
 
     footer{ 
         line-height: 150px;
-        /* margin: 0 auto; */
+        margin: 0 auto;
         display: inline-block;
     }
 }

@@ -73,8 +73,23 @@
         background-color: rgb(96, 21, 21);
     }
 
+    section:nth-child(3){
+        background-color: rgb(133, 60, 60);
+    }
+
     article{
         background-color: rgb(228, 95, 24);
+    }
+
+    article:nth-child(2){
+        background-color: rgb(172, 73, 46);
+    }
+
+    article:nth-child(3){
+        background-color: rgb(203, 122, 78);
+    }
+    article:nth-child(4){
+        background-color: rgb(179, 71, 24);
     }
 
     footer{ 
