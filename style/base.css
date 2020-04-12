@@ -2,6 +2,10 @@
 
 /* mobile */
 @media only screen and (max-width: 768px){
+    body{
+        width: 480px;
+    }
+    
     main{
         width: 480px;
     }
@@ -29,7 +33,7 @@
         height: 250px;
     }
 
-    footer{
+    #footerHolder{
         /* width: 480px;  */
         width: 100%;
         height: 80px;
@@ -39,7 +43,7 @@
 /* desktop */
 /* float */
 @media only screen and (min-width: 769px){
-    main{
+    body{
         width: 960px;
     }
     header{
@@ -54,7 +58,7 @@
     }
 
     section{
-        width: 380;
+        width: 380px;
         height: 200px;
     }
 
@@ -65,8 +69,8 @@
     }
 
     footer{ 
-        /* width: 760px; */
-        width: 100%;
+        width: 760px;
+        /* width: 100%; */
         height: 150px;
     }
 }
